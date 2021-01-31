@@ -42,7 +42,7 @@ export default class SignUp extends Component {
           {
             text: "Continue",
             onPress: () => {
-              navigation.navigate("Browse");
+              navigation.navigate("");
             }
           }
         ],

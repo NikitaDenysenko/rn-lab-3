@@ -12,6 +12,7 @@ import { LinearGradient } from "expo-linear-gradient";
 
 import { Button, Input, Block, Text } from "../components";
 import { theme, mocks } from "../constants";
+import Edit from "../components/Edit";
 
 const { width, height } = Dimensions.get("window");
 
@@ -121,14 +122,8 @@ class Explore extends Component {
           <Text h1 bold>
             Explore
           </Text>
-          {this.renderSearch()}
         </Block>
-
-        <ScrollView showsVerticalScrollIndicator={false} style={styles.explore}>
-          {this.renderExplore()}
-        </ScrollView>
-
-        {this.renderFooter()}
+        <Edit />
       </Block>
     );
   }

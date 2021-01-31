@@ -12,7 +12,7 @@
     "expo-app-loading": "^1.0.1",
     "expo-asset": "~8.2.1",
     "expo-linear-gradient": "~8.4.0",
-    "firebase": "^8.2.3",
+    "firebase": "^8.2.4",
     "react": "16.13.1",
     "react-native": "https://github.com/expo/react-native/archive/sdk-40.0.0.tar.gz",
     "react-native-gesture-handler": "~1.8.0",

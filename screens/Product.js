@@ -70,7 +70,7 @@ class Product extends Component {
           </Text>
 
           <Divider margin={[theme.sizes.padding * 0.9, 0]} />
-
+          <Button><Text>Edit Product</Text></Button>
           <Block>
             <Text semibold>Gallery</Text>
             <Block row margin={[theme.sizes.padding * 0.9, 0]}>

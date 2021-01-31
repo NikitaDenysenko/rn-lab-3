@@ -52,7 +52,6 @@ class Browse extends Component {
     const { profile, navigation } = this.props;
     const { categories } = this.state;
     const tabs = ["Products", "Inspirations"];
-
     return (
       <Block>
         <Block flex={false} row center space="between" style={styles.header}>
